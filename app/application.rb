@@ -7,7 +7,7 @@ class Application
 
     if t < 12
       resp.write "Morning"
-    elsif t > 12 
+    else 
       resp.write "Afternoon"
     end
     resp.finish
