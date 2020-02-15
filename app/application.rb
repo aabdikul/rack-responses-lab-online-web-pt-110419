@@ -6,9 +6,9 @@ class Application
     t = Time.now.strftime("%I:%M").to_i
 
     if t < 12
-      resp.write "Morning"
+      resp.write "Good Morning!"
     else
-      resp.write "Afternoon"
+      resp.write "Good Afternoon!"
     end
     resp.finish
   end
