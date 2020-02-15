@@ -11,7 +11,5 @@ class Application
       resp.write "Afternoon"
     end
     resp.finish
-
   end
-
 end
